@@ -38,7 +38,7 @@ extern float Cconf_GetSetValueFloat(cconf_config *config, const char *key, float
 extern int Cconf_DeleteValue(cconf_config *config, const char *key);
 
 #endif //CCONF_H
-#define CCONF_IMPLEMENTATION
+
 #if defined(CCONF_IMPLEMENTATION)
 
 #include <stdio.h>   // FILE, NULL, fopen, fclose, fgets, printf, snprintf
